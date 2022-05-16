@@ -1,11 +1,5 @@
-If you believe this key was added in error, you can remove the key and disable
-test Git
-
-test git gui&
-
 new content
 
 «ОКО»
-
 
 2022, 2022, 2022, 2022
