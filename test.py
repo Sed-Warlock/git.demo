@@ -10,13 +10,5 @@ while index<len(string):
     index+=1
 print(total.rstrip(' + '))
 #Возвращает строкой
-string=input('Введите строку: ')
-string+='.'
-total=''
-for ch in range(len(string)-1):
-    total+=string[ch]
-    if string[ch+1].isupper():
-        total+=" "
-print(total[0].upper()+total[1:].lower())
-print('Good')
+
 
