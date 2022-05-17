@@ -18,3 +18,5 @@ for ch in range(len(string)-1):
     if string[ch+1].isupper():
         total+=" "
 print(total[0].upper()+total[1:].lower())
+print('Good')
+
