@@ -1,0 +1,37 @@
+import turtle
+import my_graphics
+def mein():
+    turtle.setup(600,600)
+    x=turtle.bgcolor('black')
+    turtle.hideturtle()
+    #Город
+    y=turtle.fillcolor('gray')
+    turtle.begin_fill()
+    my_graphics.city(start_XCOR=-300,start_YCOR=0,end_XCOR=-235,end_YCOR=0,color='gray')
+    my_graphics.city(start_XCOR=-235,start_YCOR=0,end_XCOR=-235,end_YCOR=62,color='gray')
+    my_graphics.city(start_XCOR=-235,start_YCOR=62,end_XCOR=-173,end_YCOR=62,color='gray')
+    my_graphics.city(start_XCOR=-173,start_YCOR=62,end_XCOR=-173,end_YCOR=248,color='gray')
+    my_graphics.city(start_XCOR=-173,start_YCOR=248,end_XCOR=-49,end_YCOR=248,color='gray')
+    my_graphics.city(start_XCOR=-49,start_YCOR=248,end_XCOR=-49,end_YCOR=31,color='gray')
+    my_graphics.city(start_XCOR=-49,start_YCOR=31,end_XCOR=21,end_YCOR=31,color='gray')
+    my_graphics.city(start_XCOR=21,start_YCOR=31,end_XCOR=21,end_YCOR=155,color='gray')
+    my_graphics.city(start_XCOR=21,start_YCOR=155,end_XCOR=114,end_YCOR=155,color='gray')
+    my_graphics.city(start_XCOR=114,start_YCOR=155,end_XCOR=114,end_YCOR=62,color='gray')
+    my_graphics.city(start_XCOR=114,start_YCOR=62,end_XCOR=176,end_YCOR=62,color='gray')
+    my_graphics.city(start_XCOR=176,start_YCOR=62,end_XCOR=176,end_YCOR=0,color='gray')
+    my_graphics.city(start_XCOR=176,start_YCOR=0,end_XCOR=297,end_YCOR=0,color='gray')
+    my_graphics.city(start_XCOR=297,start_YCOR=0,end_XCOR=297,end_YCOR=-300,color='gray')
+    my_graphics.city(start_XCOR=297,start_YCOR=-300,end_XCOR=-297,end_YCOR=-300,color='gray')
+    my_graphics.city(start_XCOR=-300,start_YCOR=-300,end_XCOR=-300,end_YCOR=0,color='gray')
+    turtle.end_fill()
+    #Окна
+    my_graphics.windows(start_XCOR=-220,start_YCOR=20,color='black',fill_color='yellow')
+    my_graphics.windows(start_XCOR=-160,start_YCOR=200,color='black',fill_color='yellow')
+    my_graphics.windows(start_XCOR=-160,start_YCOR=160,color='black',fill_color='yellow')
+    my_graphics.windows(start_XCOR=-80,start_YCOR=100,color='black',fill_color='yellow')
+    my_graphics.windows(start_XCOR=80,start_YCOR=120,color='black',fill_color='yellow')
+    my_graphics.windows(start_XCOR=35,start_YCOR=70,color='black',fill_color='yellow')
+    #Звёзды
+    my_graphics.stars(color='white')
+mein()
+turtle.done()
